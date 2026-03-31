@@ -1,0 +1,11 @@
+function boasVindas(nome, hora) {
+    if(hora > 5){
+        console.log("Buenos Dias");
+}else if(hora > 12){
+    console.log("Boas Tardes");
+}else{
+    console.log("Boa Noite")
+}
+}
+const resultado = mensagem(Arthur, 14);
+console.log(resultado);
